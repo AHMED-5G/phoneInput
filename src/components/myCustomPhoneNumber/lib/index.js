@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   TextInput,
 } from 'react-native';
-import { CountryPicker } from 'react-native-country-codes-picker';
+
 
 import styles from './styles';
 import getInputMask from './utils/getInputMask';
@@ -32,7 +32,8 @@ import {
   getInputStyle,
 } from './utils/getStyles';
 import { countries } from './constants/countries';
-import { countryCodes } from './constants/countryCodes';
+import { CountryPicker } from '../react-native-country-codes-picker';
+
 
 const PhoneInput = forwardRef(
   (
